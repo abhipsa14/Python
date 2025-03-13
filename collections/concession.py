@@ -39,7 +39,7 @@ while True:
         print("Item not on the menu. Please try again.")
 
 # Calculating Total and Displaying Cart
-print("\n----------- Your Order -----------")
+ cd ("\n----------- Your Order -----------")
 for food, quantity in cart.items():
     cost = menu[food] * quantity
     total += cost
